@@ -15,11 +15,12 @@
     </head>
     <body>
         <s:form action="accessDatabase" >
-            <s:textfield name="userName" label="User Name" />
+            <s:textfield name="email" label="Email" />
+			<s:textfield name="firstName" label="First Name" />
+			<s:textfield name="lastName" label="Last Name" />
+			<s:textfield name="userName" label="User Name" />
 			<s:textfield name="password" label="Password" />
-            <s:submit name="responseButton" value="Log In" label="Log In" />
+            <s:submit name="responseButton" value="Register" label="Register" />
         </s:form>
-		<a href="register.jsp">New Member? Reigster now!!</a>
-
     </body>
 </html>

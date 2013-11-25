@@ -4,9 +4,9 @@
 
 <struts>
     <package name="default" extends="struts-default">
-		<action name="accessDatabase" class="MyLottoServlet" method ="accessDatabase">
-            <result name="SUCCESS_REGISTER">/signIn.jsp</result>
-			<result name="SUCCESS_LOG_IN">/numbersInput.html</result>
+		<action name="accessDatabase" class="socialnetwork.SocialNetwork" method ="accessDatabase">
+            <result name="SUCCESS_REGISTER">/index.jsp</result>
+			<result name="SUCCESS_LOG_IN">/home.jsp</result>
 			<result name="FAILURE">/negative.html</result>
         </action>
 		
