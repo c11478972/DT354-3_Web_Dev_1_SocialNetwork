@@ -15,5 +15,8 @@
     </head>
 	<body>
         <h1> You've Logged In!!<h1/>
+		<jsp:useBean id="students" class="socialnetwork.SocialNetwork">
+		</jsp:useBean>
+		<jsp:getProperty name="students" property="firstName"/>
     </body>
 </html>
